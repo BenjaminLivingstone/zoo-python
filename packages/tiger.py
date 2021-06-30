@@ -1,4 +1,4 @@
-from packages.animal import Animal
+from packages import Animal
 
 class Tiger(Animal):
     def __init__(self, name, age=10, health=20, happiness=20):
